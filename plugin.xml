@@ -5,9 +5,6 @@
     <license>Apache 2.0</license>
     <keywords>cordova,serviceworker,service,worker</keywords>
 
-    <engines>
-        <engine name="cordova-ios" version="^4.5.5" />
-    </engines>
     <platform name="ios">
         <dependency id="es6-promise-plugin" url="https://github.com/vstirbu/PromisesPlugin.git" />
         <dependency id="cordova-plugin-network-information" />
