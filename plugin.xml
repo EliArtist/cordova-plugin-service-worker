@@ -6,9 +6,8 @@
     <keywords>cordova,serviceworker,service,worker</keywords>
 
     <platform name="ios">
-        <dependency id="es6-promise-plugin" url="https://github.com/vstirbu/PromisesPlugin.git" />
         <dependency id="cordova-plugin-network-information" />
-        <dependency id="cordova-plugin-wkwebview-engine" />
+        <dependency id="cordova-plugin-ionic-webview" />
 
         <hook type="after_plugin_install" src="scripts/hooks/after-plugin-install.js" />
         <hook type="after_prepare" src="scripts/hooks/after-plugin-install.js" />
