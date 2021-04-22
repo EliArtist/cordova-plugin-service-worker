@@ -9,7 +9,6 @@
         <engine name="cordova-ios" version="^4.5.5" />
     </engines>
     <platform name="ios">
-        <dependency id="es6-promise-plugin" url="https://github.com/vstirbu/PromisesPlugin.git" />
         <dependency id="cordova-plugin-network-information" />
         <dependency id="cordova-plugin-wkwebview-engine" />
 
